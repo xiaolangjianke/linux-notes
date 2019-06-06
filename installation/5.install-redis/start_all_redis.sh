@@ -2,7 +2,7 @@
 
 
 
-cp -rf ./3.2.8-conf/cluster /root/work
+cd /root/work/redis/src
 # 启动
 redis-server /root/work/cluster/7000/redis.conf;
 redis-server /root/work/cluster/7001/redis.conf;
